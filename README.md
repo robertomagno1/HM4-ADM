@@ -4,6 +4,34 @@ This is a GitHub repository created to submit the fourth homework of the **Algor
 
 ---
 
+# Homework 4 - Movie Recommendation System
+
+<p align="center">
+<img src="https://movielens.org/images/site/main-screen.png" width="600">
+</p>
+
+## Overview
+This repository contains the solution to Homework 4 for the 2024 Data Science course. The project implements a recommendation system using MinHash and Locality-Sensitive Hashing (LSH) and performs clustering analysis on the MovieLens dataset.
+
+## Repository Structure
+- `main.ipynb`: Jupyter Notebook with the main solution to Homework 4.
+- `src/`: Folder containing Python scripts with reusable functions.
+  - `preprocessing.py`: Functions for data cleaning and preprocessing.
+  - `lsh_functions.py`: Implementation of MinHash, LSH, and recommendation logic.
+  - `clustering.py`: Implementation of clustering algorithms (e.g., K-means, K-means++).
+  - `bonus.py`: Bonus question implementation (Arya vs. Mario game).
+- `data/`: Folder to store local datasets (excluded from GitHub).
+- `plots/`: Folder to store generated plots.
+- `.gitignore`: Specifies files and folders excluded from the repository.
+
+## How to Run the Project
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your_username/Homework_4.git
+   cd Homework_4
+
+---
+
 ### Files and Directories
 ```
 .
